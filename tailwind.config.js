@@ -21,7 +21,11 @@ module.exports = {
       wider: '.4em',
       widest: '.3em',
     },
-    extend: {},
+    extend: {
+      spacing: {
+        '128': '32rem',
+      }
+    },
   },
   plugins: [],
 }
